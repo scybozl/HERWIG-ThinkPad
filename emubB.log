@@ -747,3 +747,29 @@ Step 1
                                 -0.000     0.000 -3060.672  3060.672     0.877
 ------------------------------------------------------------------------------
      Sum of momenta:                 0         0         0     7e+03     7e+03
+final integrated cross section is ( 0.00251502 +/- 4.74268e-05 ) nb
+
+
+
+Note: In this run 72 of the 2812 accepted events
+were found with a weight W larger than the expected Wmax.
+This corresponds to a cross section difference between:
+   UnitWeights:       0.00251502nb
+   AlmostUnweighted:  0.00264059nb
+ use 'set Sampler:AlmostUnweighted On' to switch to non-unit weights.
+
+The maximum weight determined in the read/integrate step has been enhanced by 
+   set /Herwig/Samplers/Sampler:MaxEnhancement 1.1.
+If the rate of excessions (2.56046%) or the change of the cross section is large,
+you can try to:
+
+Enhance the number of points used in the read/integrate step
+   set /Herwig/Samplers/Sampler:BinSampler:InitialPoints ...
+
+and/or enhance the reference weight found in the read/integrate step
+   set /Herwig/Samplers/Sampler:MaxEnhancement 1.x
+
+If this does not help (and your process is well defined by cuts)
+don't hesitate to contact herwig@projects.hepforge.org.
+
+No exceptions reported in this run.
