@@ -91,13 +91,15 @@ set /Herwig/Particles/Z0:Width 2.50966*GeV
 set /Herwig/Particles/Z0:Mass_generator:Initialize Yes
 set /Herwig/Particles/Z0:Width_generator:Initialize Yes
 
-set /Herwig/Particles/b:NominalMass 4.8*GeV
+set /Herwig/Particles/b:NominalMass 0.0*GeV
+set /Herwig/Particles/b:HardProcessMass 0.0*GeV
 #set /Herwig/Particles/b:Mass_generator:Initialize Yes
 
-set /Herwig/Particles/bbar:NominalMass 4.8*GeV
+set /Herwig/Particles/bbar:NominalMass 0.0*GeV
+set /Herwig/Particles/bbar:HardProcessMass 0.0*GeV
 #set /Herwig/Particles/bbar:Mass_generator:Initialize Yes
 
-set /Herwig/Particles/h0:NominalMass 1e+12*GeV
+set /Herwig/Particles/h0:NominalMass 125.0*GeV
 set /Herwig/Particles/h0:Mass_generator:Initialize Yes
 
 ##################################################
